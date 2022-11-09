@@ -1,3 +1,0 @@
-I:/Programming/Lern_C/OTUS/C++ Developer Basic/09/OTUS_Basic_DZ_05/build/CMakeFiles/statistics.dir
-I:/Programming/Lern_C/OTUS/C++ Developer Basic/09/OTUS_Basic_DZ_05/build/CMakeFiles/ALL_BUILD.dir
-I:/Programming/Lern_C/OTUS/C++ Developer Basic/09/OTUS_Basic_DZ_05/build/CMakeFiles/ZERO_CHECK.dir
