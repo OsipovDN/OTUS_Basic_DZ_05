@@ -26,4 +26,6 @@ elseif (CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
     )
 endif()
 
+add_executable(statistics statistics.cpp)
+set_target_properties(statistics PROPERTIES CXX_STANDARD 17 CXX_STANDARD_REQUIRED ON)
 
