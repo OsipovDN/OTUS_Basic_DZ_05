@@ -9,7 +9,7 @@
 class Pct90 : public IStatistics {
 public:
 
-	Pct90(){}
+	Pct90():count(0){}
 	void update(double next) override;
 	double eval() const override;
 	const char* name() const override;

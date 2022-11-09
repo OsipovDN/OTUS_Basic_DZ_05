@@ -1,10 +1,5 @@
 #pragma once
 
-#include "Max.h"
-#include "Min.h"
-#include "Mean.h"
-#include "Std.h"
-#include "Pct90.h"
 
 class IStatistics {
 public:

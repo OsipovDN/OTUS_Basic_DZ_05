@@ -8,6 +8,7 @@ add_executable(statistics
     src/Min.cpp
     src/Mean.cpp
     src/Std.cpp
+    src/Pct90.cpp
     )
 
 target_include_directories(statistics PRIVATE include)

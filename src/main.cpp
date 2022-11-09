@@ -1,21 +1,20 @@
 #include <iostream>
-#include "Min.h"
 #include "Max.h"
 #include "Mean.h"
+#include "Min.h"
 #include "Std.h"
 #include "Pct90.h"
 
 
 int main() {
 
-	const size_t statistics_count = 4;
+	const size_t statistics_count = 5;
 	IStatistics *statistics[statistics_count];
 
 	statistics[0] = new Min{};
 	statistics[1] = new Max{};
 	statistics[2] = new Mean{};
 	statistics[3] = new Std{};
-	statistics[4] = new Pct90{};
 
 	double val = 0;
 	while (std::cin >> val) {
