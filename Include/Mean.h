@@ -12,9 +12,11 @@ public:
 	double eval() const override;
 
 	const char* name() const override;
-
+	
+	
 private:
+	double mean;
 	double sum;
 	double count;
-	double mean;
+	
 };

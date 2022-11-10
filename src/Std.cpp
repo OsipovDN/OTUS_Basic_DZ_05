@@ -1,5 +1,6 @@
 #include "Std.h"
 
+
 void Std::update(double next) {
 	array.push_back(next);
 	sum += next;
