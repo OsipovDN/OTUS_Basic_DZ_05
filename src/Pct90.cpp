@@ -1,10 +1,9 @@
 #include "Pct90.h"
 
 void Pct90::update(double next) {
-	double i = 0;
 	array.push_back(next);
 	sort(array.begin(), array.end());
-	i = ceil(0.9 * array.size());
+	double i = ceil(0.9 * array.size());
 	count = array[i];
 }
 
