@@ -14,6 +14,11 @@ add_executable(statistics
 
 target_include_directories(statistics PRIVATE include)
 
+set_target_properties(OTUS_Basic_DZ_03 PROPERTIES
+	CXX_STANDART 17
+	CXX_STANDART_REQUIRED ON
+)
+
 
 if (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR
     CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
