@@ -3,7 +3,7 @@
 void Pct90::update(double next) {
 	array.push_back(next);
 	sort(array.begin(), array.end());
-	double i = ceil(0.9 * array.size());
+	const auto i = static_cast<int>(ceil(0.9 * array.size()) - 1);
 	count = array[i];
 }
 

@@ -15,6 +15,7 @@ public:
 	const char* name() const override;
 
 private:
+
 	double count;
 	std::vector <double> array;
 
