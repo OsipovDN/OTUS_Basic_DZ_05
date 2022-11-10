@@ -4,11 +4,11 @@
 #include "Min.h"
 #include "Std.h"
 #include "Pct90.h"
-
+#include "Pct95.h"
 
 int main() {
 
-	const size_t statistics_count = 5;
+	const size_t statistics_count = 6;
 	IStatistics *statistics[statistics_count];
 
 	statistics[0] = new Min{};
@@ -16,6 +16,7 @@ int main() {
 	statistics[2] = new Mean{};
 	statistics[3] = new Std{};
 	statistics[4] = new Pct90{};
+	statistics[5] = new Pct95{};
 
 	double val = 0;
 	while (std::cin >> val) {
