@@ -14,7 +14,7 @@ add_executable(statistics
 
 target_include_directories(statistics PRIVATE include)
 
-set_target_properties(OTUS_Basic_DZ_03 PROPERTIES
+set_target_properties(statistics PROPERTIES
 	CXX_STANDART 17
 	CXX_STANDART_REQUIRED ON
 )
